@@ -52,7 +52,14 @@ console.log(soma);
 let numero: number = 5;
 let result: number = 1;
 
-for (let i = numero; i > 0; i--) {
+// for (let i = numero; i > 0; i--) { // Fatorial de 5, 4, 3, 2, 1
+//   result = result * i
+// }
+
+// console.log(result);
+
+for (let i = numero; i < 5; i++) {
+  // Fatorial de 1, 2, 3, 4, 5
   result = result * i;
 }
 
